@@ -1,0 +1,21 @@
+### Get Orphanages
+http://localhost:3333/orphanages
+Content-Type: application/json
+
+### Get Orphanage by id
+http://localhost:3333/orphanages/5
+Content-Type: application/json
+
+### Save User
+POST http://localhost:3333/orphanages
+Content-Type: application/json
+
+{
+  "name": "Lar dos meninos",
+  "latitude": -23.2506697,
+  "longitude": -45.8948597,
+  "about": "Sobre o orfanato",
+  "instructions": "Venha nos visitar",
+  "opening_hours": "Das 8h às 17h",
+  "open_on_weekends": true
+}

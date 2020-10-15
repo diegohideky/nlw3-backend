@@ -1,0 +1,7 @@
+### Save User
+POST http://localhost:3333/users/1
+Content-Type: application/json
+
+{
+  
+}
